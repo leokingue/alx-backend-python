@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-# @a: a first float parameter
-# @b: a second flaot parameter
-# Reurn a + b
+
+'''
+    Basic annotations for variables.
+'''
+
 
 def add(a: float, b: float) -> float:
+    '''
+        Return sum of two floats
+    '''
     return a + b
